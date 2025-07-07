@@ -16,6 +16,7 @@ int main() {
 
     double valorTotalA;
     double valorTotalB;
-    
-    
+//Exibir as informações dos produtos
+    printf("%s tem estoque de %u unidades, valor unitario de R$%.2f", produtoA, estoqueA, valorA);
+    printf("\n%s tem estoque de %u unidades, valot unitario de R$%.2f", produtoB, estoqueB, valorB);
 }
