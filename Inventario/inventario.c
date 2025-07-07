@@ -19,4 +19,14 @@ int main() {
 //Exibir as informações dos produtos
     printf("%s tem estoque de %u unidades, valor unitario de R$%.2f", produtoA, estoqueA, valorA);
     printf("\n%s tem estoque de %u unidades, valot unitario de R$%.2f", produtoB, estoqueB, valorB);
+
+//Comparacoes com o estoque minimo
+    short int resultadoA;
+    short int resultadoB;
+
+    resultadoA = estoqueA > estoqueMinimoA;
+    resultadoB = estoqueB > estoqueMinimoB;
+
+    printf("\n$%s tem estoque minimo de %i", produtoA, resultadoA);
+    printf("\n$%s tem estoque minimo de %i", produtoB, resultadoB);
 }
