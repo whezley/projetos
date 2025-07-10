@@ -44,9 +44,12 @@ float area, pib;
     printf("Area: %.2f\n", area);
     printf("PIB: %.2f\n", pib);
     printf("Numero de Pontos turisticos: %i\n", num_pontos_turisticos);
+        
+    //Inserindo a densidade e PIB per capita
+    float densidade = (float)populacao / area;  
+    float pib_per_capita = pib / populacao;
 
-
-
-
+    //Imprimindo a densidade e PIB per capita
+    printf("Densidade: %.2f habitantes por km²/n", densidade);
     return 0;
 }
